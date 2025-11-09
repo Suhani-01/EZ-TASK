@@ -1,16 +1,51 @@
-# React + Vite
+# EZ Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Built with **ReactJS** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## 🌐 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live application here: [EZ Task Live](https://ez-task-p2mq-ha0ylv0ks-suhani-01s-projects.vercel.app/)
 
-## React Compiler
+## 💻 Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To run EZ Task locally, follow these steps:
 
-## Expanding the ESLint configuration
+1. **Clone the repository**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/Suhani-01/EZ‑TASK.git
+```
+
+2. **Navigate to the project folder**
+
+```bash
+cd EZ-TASK
+```
+
+3. **Install dependencies**
+Make sure you have Node.js and npm installed. Then run: 
+
+```bash
+npm install
+```
+
+4. **Run the application**
+
+```bash
+npm run dev
+```
+
+The application will run locally at http://localhost:3000
+
+## 🛠 Technologies Used
+
+- **ReactJS**
+- **Tailwind CSS**
+- **JavaScript (ES6)**
+- **HTML5 & CSS3**
+
+## 📈 Project Status
+
+- The application frontend is ready.
+- The contact form works correctly.
+- Full responsiveness is still under development.
