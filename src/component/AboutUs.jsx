@@ -26,8 +26,8 @@ Together, we've crafted tales that inspire, connect, and endure.</p>
 
                 {/*********   company section *******/}
               
-                    <img className='absolute -bottom-7 sm:-bottom-17 right-20 sm:right-40 h-50 sm:h-63' src='/mountain.png'/>
-                    <img className='absolute animate-spin h-110 right-10 -bottom-50 sm:-bottom-85 sm:right-17 sm:h-150' src='/Companies.png' style={{ animationDuration: '50s' }}/>
+                    <img className='absolute -bottom-7 sm:-bottom-17 right-0 sm:right-40 h-50 sm:h-63' src='/mountain.png'/>
+                    <img className='absolute animate-spin h-110 right-0 -bottom-50 sm:-bottom-85 sm:right-17 sm:h-150' src='/Companies.png' style={{ animationDuration: '50s' }}/>
                
             </div>
         </div>
