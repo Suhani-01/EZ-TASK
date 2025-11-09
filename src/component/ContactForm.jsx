@@ -144,7 +144,7 @@ function ContactForm() {
           <button
             type="submit"
             disabled={loading}
-            className={`bg-primary instrument-sans text-white text-sm py-2 px-4 rounded-full ${
+            className={`bg-primary cursor-pointer  instrument-sans text-white text-sm py-2 px-4 rounded-full ${
               loading ? "opacity-60 cursor-not-allowed" : ""
             }`}
           >

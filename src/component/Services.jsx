@@ -32,7 +32,7 @@ function Services() {
       {/*Heading*/}
       <div className="h-full w-full overflow-visible mx-auto relative sm:pt-16">
         <div className="transition-all w-auto duration-500">
-          <p className="halant-regular text-center text-2xl sm:text-3xl">
+          <p className="halant-regular text-center text-xl sm:text-3xl">
             {currentHeading}
           </p>
           {
@@ -41,7 +41,7 @@ function Services() {
         </div>
 
         {/*Cards Section*/}
-        <div className="flex flex-wrap sm:flex-nowrap gap-5 sm:gap-6 justify-center mt-10 sm:mt-22 transition-all duration-700">
+        <div className="flex pt-10 sm:pt-0 flex-wrap sm:flex-nowrap gap-5 sm:gap-6 justify-center mt-10 sm:mt-22 transition-all duration-700">
           {[0, 1, 2].map((index) => (
             <div
               key={index}

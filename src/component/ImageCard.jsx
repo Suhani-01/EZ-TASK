@@ -10,7 +10,7 @@ function ImageCard({ index, active }) {
   const vect4 = ["/hV12.svg", "/hv24.svg", "/hv34.svg"];
 
   const hoverTexts = [
-    <div className="w-100 text-xl  instrument-sans" key="film">
+    <div className="w-100 text-sm sm:text-xl instrument-sans" key="film">
       <p>
         Who says films are just an escape?
         <br />
@@ -26,7 +26,7 @@ function ImageCard({ index, active }) {
         <li>3D Animation Videos</li>
       </ul>
     </div>,
-    <div className="w-100 text-xl  instrument-sans" key="post">
+    <div className="w-100 text-sm sm:text-xl  instrument-sans" key="post">
       <p>
         A brand isn’t just what you see - it’s what you remember, what you carry home, and what you trust.
 
@@ -43,7 +43,7 @@ function ImageCard({ index, active }) {
         <li>Rebranding</li>
       </ul>
     </div>,
-    <div className="w-100 text-xl  instrument-sans" key="creative">
+    <div className="w-100 text-sm sm:text-xl  instrument-sans" key="creative">
       <p>
         Art isn’t meant to sit on distant walls - it’s meant to breathe, to travel, to belong.
         <br />
@@ -60,16 +60,16 @@ function ImageCard({ index, active }) {
   ];
 
   return (
-    <div className="h-full relative w-full">
+    <div className="h-full cursor-pointer relative w-full">
       <div
-        className={`flex items-center justify-start transition-all duration-700 ease-in-out h-full ${
+        className={`flex flex-col sm:flex-row items-center justify-start transition-all duration-700 ease-in-out h-full ${
           active
             ? index === 0
-              ? "-translate-x-10"
+              ? "translate-x-20 sm:-translate-x-10"
               : index === 1
-              ? "-translate-x-70"
-              : "-translate-x-130"
-            : "translate-x-0"
+              ? "-translate-x-20 sm:-translate-x-70"
+              : "-translate-y-44 sm:translate-y-0 sm:-translate-x-130"
+            : "sm:translate-x-0"
         } `}
         style={{
           width: active ? "100%" : "100%",
@@ -86,7 +86,7 @@ function ImageCard({ index, active }) {
         >
           {/* back button */}
           <button
-            className={`z-200  border instrument-sans py-1 text-sm border-primary px-5 text-primary rounded-2xl absolute -top-10 -left-15 transition-opacity duration-300 
+            className={`z-200 cursor-pointer   border instrument-sans py-1 text-sm border-primary px-5 text-primary rounded-2xl absolute  left-10 -top-10 sm:-left-15 transition-opacity duration-300 
     ${active ? "opacity-100" : "opacity-0"}`}
           >
             Back
@@ -105,22 +105,22 @@ function ImageCard({ index, active }) {
           {/* vectors */}
           <img
             src={vect1[index]}
-            className={`z-200  py-1 h-19 text-sm  absolute -bottom-10 -left-25 transition-opacity duration-300 
+            className={`z-200  py-1 h-19   absolute -bottom-10 -left-25 transition-opacity duration-300 
     ${active ? "opacity-100" : "opacity-0"}`}
           />
           <img
             src={vect2[index]}
-            className={`z-200  py-1 h-28 text-sm  absolute -bottom-10 -right-140 transition-opacity duration-300 
+            className={`z-200  py-1 h-28 absolute -bottom-10 -right-140 transition-opacity duration-300 
     ${active ? "opacity-100" : "opacity-0"}`}
           />
           <img
             src={vect3[index]}
-            className={`z-200  py-1 h-17 text-sm  absolute bottom-30 -right-125 transition-opacity duration-300 
+            className={`z-200  py-1 h-17   absolute bottom-30 -right-125 transition-opacity duration-300 
     ${active ? "opacity-100" : "opacity-0"}`}
           />
           <img
             src={vect4[index]}
-            className={`z-200  py-1 h-25 text-sm  absolute -top-5 -right-140 transition-opacity duration-300 
+            className={`z-200  py-1 h-25 absolute -top-5 -right-140 transition-opacity duration-300 
     ${active ? "opacity-100" : "opacity-0"}`}
           />
 

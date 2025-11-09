@@ -26,7 +26,7 @@ function Portfolio() {
 
 
                     {/*********  can be replaced with the i frame ************/}
-                    <div className="flex-1 h-[68%] flex items-center justify-center bg-[url('/image1.png')] bg-cover bg-center">
+                    <div className="flex-1 h-[68%] cursor-pointer flex items-center justify-center bg-[url('/image1.png')] bg-cover bg-center">
                         <img src='/youtubeicon.png' className='h-8 sm:h-14'/>
                     </div>
 
