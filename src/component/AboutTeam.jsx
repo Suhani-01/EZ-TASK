@@ -1,5 +1,6 @@
 import React from "react";
-import Button from "./button";
+import ButtonHu from "./ButtonHu";
+
 
 function AboutTeam() {
   return (
@@ -56,7 +57,7 @@ function AboutTeam() {
             <div className="halant-regular text-center text-2xl sm:text-[1.6rem] mt-2 sm:mt-10">
               Take a closer look at the stories V bring to life.
             </div>
-            <Button content="View Portfolio" />
+            <ButtonHu content="View Portfolio" />
           </div>
         </div>
       </div>

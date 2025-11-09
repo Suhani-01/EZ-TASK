@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Button({content}) {
+function ButtonHu({content}) {
   return (
     <>
     <button className='cursor-pointer bg-primary text-white text-sm py-2 px-4 rounded-full'>
@@ -10,4 +10,4 @@ function Button({content}) {
   )
 }
 
-export default Button
+export default ButtonHu
